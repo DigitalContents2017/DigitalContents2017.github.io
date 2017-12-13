@@ -22,3 +22,7 @@
     display: block;
     clear: both;
 }
+
+#teacher_body,#teacher_title{
+    color: #ffffff;
+}

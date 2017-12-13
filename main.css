@@ -35,14 +35,15 @@ p{
 #border1-top{
     width: 100%;
     height: 50%;
+    overflow: hidden;
 }
 
 #border1-top::after{
     background-color: #F15A24;
     content: '';
     display: block;
-    left: -50%;
-    top: -50px;
+    left: -150%;
+    top: -10px;
     width: 300%;
     height: 50px;
     overflow: hidden;
@@ -62,7 +63,7 @@ p{
 }
 
 #border1{
-    height: 50px;
+    height: 70px;
 }
 
 
@@ -70,14 +71,15 @@ p{
 #border2-top{
     width: 100%;
     height: 50%;
+    overflow: hidden;
 }
 
 #border2-top::after{
     background-color: #009245;
     content: '';
     display: block;
-    left: -50%;
-    top: -10px;
+    left: -150%;
+    top: -50px;
     width: 300%;
     height: 50px;
     overflow: hidden;
@@ -97,5 +99,5 @@ p{
 }
 
 #border2{
-    height: 50px;
+    height: 70px;
 }

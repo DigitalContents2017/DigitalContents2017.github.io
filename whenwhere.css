@@ -1,3 +1,53 @@
 #whenwhere{
     background: #009245;
 }
+
+table.when-where {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: none;
+    font-size: 1em;
+    table-layout: fixed;
+    align-self: center;
+}
+ 
+table.when-where th {
+    min-height: 13px;
+    padding: 10px 10px 10px 0;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    vertical-align: top;
+    border: none;
+    white-space: nowrap;
+    overflow: visible;
+}
+ 
+table.when-where th::after {
+    float: right;
+    padding: 0;
+    right: -15px;
+    top: 0;
+    content: &quot;───&quot;;
+    height: 0;
+    width: 0;
+    position: relative;
+    pointer-events: none;
+    border: none;
+}
+ 
+table.when-where td {
+    height: 12px;
+    margin: 0;
+    padding: 10px 10px 10px 60px;
+    text-align: left;
+    vertical-align: top;
+    border: none;
+    line-height: 180%;
+    font-size: 1em;
+}
+
+#map{
+    margin: 0 auto;
+    display: block;
+    align-self: center;
+}
