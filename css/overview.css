@@ -39,11 +39,6 @@
     color: #f0f0f0;
 }
 
-#overview .content {
-    max-width: 500px;
-    margin-left: auto;
-}
-
 @media screen and (min-width: 800px) {
 #overview::after {
     left: 0;
@@ -55,6 +50,11 @@
 #teacher_img {
     width: 140px;
     height: 140px;
+}
+
+#overview .content {
+    max-width: 500px;
+    margin-left: auto;
 }
 }
 

@@ -38,16 +38,16 @@ table.when-where th {
     margin-bottom: 20px;
 }
 
-#whenwhere .content {
-    max-width: 500px;
-    margin-right: auto;
-}
-
 @media screen and (min-width: 800px) {
 #whenwhere::after {
     left: 0;
     top: -50%;
     width: 200%;
     height: 200%;
+}
+
+#whenwhere .content {
+    max-width: 500px;
+    margin-right: auto;
 }
 }
