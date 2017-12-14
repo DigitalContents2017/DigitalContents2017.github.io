@@ -1,3 +1,15 @@
 #work_list{
     background-color: #C43338;
 }
+
+article{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    width: 80%;
+}
+
+#work_list h3,#work_list p{
+    color: black;
+}

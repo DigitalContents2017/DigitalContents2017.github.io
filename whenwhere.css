@@ -6,9 +6,10 @@ table.when-where {
     margin: 0 auto;
     border-collapse: collapse;
     border: none;
-    font-size: 1em;
+    font-size: 1.5em;
     table-layout: fixed;
     align-self: center;
+    color: white;
 }
  
 table.when-where th {
@@ -44,6 +45,11 @@ table.when-where td {
     border: none;
     line-height: 180%;
     font-size: 1em;
+}
+
+.space20px{
+    width:100%;
+    height:20px;
 }
 
 #map{
