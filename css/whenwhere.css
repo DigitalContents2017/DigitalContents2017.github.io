@@ -5,7 +5,7 @@
     left: -150%;
     top: 0;
     width: 300%;
-    height: 120%;
+    height: 200%;
     overflow: hidden;
     position: absolute;
     -webkit-transform: rotate(-5deg);
@@ -44,5 +44,16 @@ table.when-where th {
     top: -50%;
     width: 200%;
     height: 200%;
+}
+
+#whenwhere .content {
+    max-width: 500px;
+    margin-right: auto;
+}
+}
+
+@media screen and (min-width: 1200px) {
+#map{
+    height: 400px;
 }
 }

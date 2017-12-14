@@ -17,6 +17,7 @@ header{
 
 #logo_image{
     width : 70%;
+    max-width: 1000px;
     display: block;
     align-content: center;
     margin: 0 auto;
@@ -25,5 +26,11 @@ header{
 @media screen and (min-width: 800px) {
 #logo{
     padding: 100px 0;
+}
+}
+
+@media screen and (min-width: 800px) {
+#logo{
+    padding: 150px 0;
 }
 }
