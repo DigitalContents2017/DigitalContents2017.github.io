@@ -51,4 +51,17 @@
     width: 200%;
     height: 200%;
 }
+
+#teacher_img {
+    width: 140px;
+    height: 140px;
 }
+}
+
+@media screen and (min-width: 1200px) {
+#teacher_img {
+    width: 160px;
+    height: 160px;
+}
+}
+    
