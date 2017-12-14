@@ -36,12 +36,27 @@ article img {
 }
 
 article .content {
-    padding: 5px 3%;
+    padding: 5px 3% 20px;
 }
 
 @media screen and (min-width: 800px) {
+#work_list {
+    padding-top: 80px;
+}
+
 .article-flex  article {
     width: 48%;
+    margin: 10px 1%;
+}
+}
+
+@media screen and (min-width: 1200px) {
+#work_list {
+    padding-top: 120px;
+}
+
+.article-flex  article {
+    width: 31%;
     margin: 10px 1%;
 }
 }
