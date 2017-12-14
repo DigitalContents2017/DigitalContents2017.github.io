@@ -19,31 +19,17 @@
     z-index: -1;
 }
 
-#whenwhere::after {
-    background-color: #009245;
-    content: '';
-    display: block;
-    left: -150%;
-    top: 0;
-    width: 300%;
-    height: 120%;
-    overflow: hidden;
-    position: absolute;
-    -webkit-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    -o-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-    z-index: -1;
+article {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    color: #333333;
 }
 
-article{
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 20px;
-    background-color: white;
-    width: 80%;
+article img {
+    width: 100%;
 }
 
-#work_list h3,#work_list p{
-    color: black;
+article .content {
+    padding: 5px 3%;
 }
