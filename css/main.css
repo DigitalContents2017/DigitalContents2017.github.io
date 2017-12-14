@@ -30,35 +30,9 @@ p{
     overflow: hidden;
 }
 
-#border1-top::after{
-    background-color: #F15A24;
-    content: '';
-    display: block;
-    left: -150%;
-    top: -10px;
-    width: 300%;
-    height: 50px;
-    overflow: hidden;
-    position: relative;
-    -webkit-transform: rotate(-2deg);
-    -ms-transform: rotate(-2deg);
-    -o-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-    z-index: -1;
-}
-#border1-bottom{
-    top: -50px;
-    position: relative;
-    background-color: #009245;
-    height:100px;
-    z-index:-2;
-}
-
 #border1{
     height: 70px;
 }
-
-
 
 #border2-top{
     width: 100%;
