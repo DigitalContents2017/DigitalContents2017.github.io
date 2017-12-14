@@ -34,5 +34,15 @@ table.when-where th {
 
 #map{
     width: 100%;
+    height: 300px;
     margin-bottom: 20px;
+}
+
+@media screen and (min-width: 800px) {
+#whenwhere::after {
+    left: 0;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+}
 }

@@ -22,3 +22,8 @@ header{
     margin: 0 auto;
 }
 
+@media screen and (min-width: 800px) {
+#logo{
+    padding: 100px 0;
+}
+}

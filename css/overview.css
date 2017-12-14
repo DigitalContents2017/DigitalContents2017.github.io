@@ -27,6 +27,7 @@
 
 .teacher_description {
     padding: 0 5%;
+    flex-grow: 1;
 }
 
 .teacher_title {
@@ -36,4 +37,13 @@
 .teacher_copy {
     font-size: 10px;
     color: #f0f0f0;
+}
+
+@media screen and (min-width: 800px) {
+#overview::after {
+    left: 0;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+}
 }
