@@ -26,6 +26,7 @@ p{
 
 section {
     padding: 20px 5%;
+    position: relative;
 }
 
 #border1-top{
