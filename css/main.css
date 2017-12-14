@@ -3,10 +3,10 @@
     padding: 0;
 }
 
-body{
+body, html{
     font-family: "Helvetica Neue", 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',"メイリオ", sans-serif;
     color: #ffffff;
-    overflow-x: hidden;    
+    overflow-x: hidden;
 }
 
 h2{
