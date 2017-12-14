@@ -1,5 +1,6 @@
 #work_list {
     padding-top: 60px;
+    overflow: hidden;
 }
 
 #work_list::after {
