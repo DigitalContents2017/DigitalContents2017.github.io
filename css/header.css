@@ -1,22 +1,23 @@
 header{
     width: 100%;
     margin: 0px;
-    background-color: #F15A24;
 }
 
 #top{
-    height: 20px;
+    height: 10px;
+    background-color: #F15A24;    
 }
 
 #logo{
-    margin-top:0px;
-    background-image: url("20171026171502_IMG_0307.JPG");
+    margin: 0;
+    padding: 50px 0;
+    background-image: url("../image/header-background.jpg");
     background-size: cover;
-    margin-bottom: 0px;
+    background-position: center;
 }
 
 #logo_image{
-    width : 80%;
+    width : 70%;
     display: block;
     align-content: center;
     margin: 0 auto;
