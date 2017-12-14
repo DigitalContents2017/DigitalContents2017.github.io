@@ -16,6 +16,7 @@
     -ms-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
+    z-index: -1;
 }
 
 table.when-where {

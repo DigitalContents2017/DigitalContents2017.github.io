@@ -1,6 +1,19 @@
 #overview{
-    background-color: #F15A24;
     padding: 20px 5%;
+    position: relative;
+}
+
+#overview::after {
+    background-color: #F15A24;
+    content: '';
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 120%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
 }
 
 #teacher_img {
