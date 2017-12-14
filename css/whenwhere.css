@@ -51,3 +51,9 @@ table.when-where th {
     margin-right: auto;
 }
 }
+
+@media screen and (min-width: 1200px) {
+#map{
+    height: 400px;
+}
+}
