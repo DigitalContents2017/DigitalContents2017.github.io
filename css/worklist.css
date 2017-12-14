@@ -19,6 +19,11 @@
     z-index: -1;
 }
 
+.article-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 article {
     margin-bottom: 10px;
     background-color: #ffffff;
@@ -32,4 +37,11 @@ article img {
 
 article .content {
     padding: 5px 3%;
+}
+
+@media screen and (min-width: 800px) {
+.article-flex  article {
+    width: 48%;
+    margin: 10px 1%;
+}
 }
