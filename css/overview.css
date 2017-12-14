@@ -1,28 +1,31 @@
 #overview{
     background-color: #F15A24;
+    padding: 20px 5% 0 5%;
 }
 
-#teacher{
+#teacher_img {
+    width: 100px;
+    height: 100px;
+    background-image: url("../image/teacher.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-#teacher_img{
-    float: left;
-    width:300px;
-    height:300px;
+#teacher {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
 }
 
-#teacher_title{
+.teacher_description {
+    padding: 0 5%;
 }
 
-#teacher_body{
+.teacher_title {
+    margin-bottom: 5px;
 }
 
-#teacher_body::after{
-    content:"";
-    display: block;
-    clear: both;
-}
-
-#teacher_body,#teacher_title{
-    color: #ffffff;
+.teacher_copy {
+    font-size: 10px;
+    color: #f0f0f0;
 }
