@@ -24,6 +24,11 @@ p{
     line-height: 25px;
 }
 
+section {
+    padding: 20px 5%;
+    position: relative;
+}
+
 #border1-top{
     width: 100%;
     height: 50%;

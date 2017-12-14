@@ -1,7 +1,3 @@
-#whenwhere{
-    position: relative;
-}
-
 #whenwhere::after {
     background-color: #009245;
     content: '';
@@ -9,67 +5,34 @@
     left: -150%;
     top: 0;
     width: 300%;
-    height: 100%;
+    height: 120%;
     overflow: hidden;
     position: absolute;
     -webkit-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
+    z-index: -1;
 }
 
 table.when-where {
-    margin: 0 auto;
     border-collapse: collapse;
     border: none;
-    font-size: 1.5em;
-    table-layout: fixed;
-    align-self: center;
-    color: white;
-}
- 
-table.when-where th {
-    min-height: 13px;
-    padding: 10px 10px 10px 0;
-    text-align: justify;
-    text-justify: inter-ideograph;
-    vertical-align: top;
-    border: none;
-    white-space: nowrap;
-    overflow: visible;
-}
- 
-table.when-where th::after {
-    float: right;
-    padding: 0;
-    right: -15px;
-    top: 0;
-    content: &quot;───&quot;;
-    height: 0;
-    width: 0;
-    position: relative;
-    pointer-events: none;
-    border: none;
-}
- 
-table.when-where td {
-    height: 12px;
-    margin: 0;
-    padding: 10px 10px 10px 60px;
-    text-align: left;
-    vertical-align: top;
-    border: none;
-    line-height: 180%;
-    font-size: 1em;
+    font-size: 13px;
+    line-height: 25px;
+    margin-bottom: 20px;
 }
 
-.space20px{
-    width:100%;
-    height:20px;
+table.when-where tr {
+    height: 30px;    
 }
+
+table.when-where th {
+    white-space: nowrap;
+    vertical-align: top;
+}               
 
 #map{
-    margin: 0 auto;
-    display: block;
-    align-self: center;
+    width: 100%;
+    margin-bottom: 20px;
 }
