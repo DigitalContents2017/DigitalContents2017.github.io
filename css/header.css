@@ -10,6 +10,7 @@ header{
 
 #logo{
     padding: 50px 0;
+    background-color: #ffffff;
     background-image: url("../image/header-background.jpg");
     background-size: cover;
     background-position: center;
